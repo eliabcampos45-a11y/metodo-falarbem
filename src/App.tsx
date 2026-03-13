@@ -202,10 +202,10 @@ export default function App() {
               <img 
                 src="https://i.ibb.co/7d0VMrVG/CAPA-METODO-FALARBEM.jpg" 
                 alt="Método Falar Bem Ebook" 
-                className="relative w-72 md:w-96 rounded-lg shadow-[20px_20px_60px_rgba(0,0,0,0.8)] transform -rotate-6 hover:rotate-0 transition-transform duration-500 border border-white/10"
+                className="relative w-72 md:w-96 rounded-lg shadow-[20px_20px_60px_rgba(0,0,0,0.8)] border border-white/10"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute -bottom-6 -right-6 bg-emerald-500 text-black font-black p-4 rounded-2xl shadow-2xl transform rotate-12">
+              <div className="absolute -bottom-6 -right-6 bg-emerald-500 text-black font-black p-4 rounded-2xl shadow-2xl">
                 <p className="text-xs uppercase tracking-widest">Apenas</p>
                 <p className="text-2xl">R$ 29,90</p>
               </div>
