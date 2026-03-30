@@ -207,7 +207,7 @@ export default function App() {
               />
               <div className="absolute -bottom-6 -right-6 bg-emerald-500 text-black font-black p-4 rounded-2xl shadow-2xl">
                 <p className="text-xs uppercase tracking-widest">Apenas</p>
-                <p className="text-2xl">R$ 29,90</p>
+                <p className="text-2xl">R$ 37,90</p>
               </div>
             </div>
           </motion.div>
@@ -291,7 +291,7 @@ export default function App() {
           <div className="text-center mb-16">
             <span className="text-emerald-500 font-bold tracking-widest uppercase text-sm">Presentes Exclusivos</span>
             <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-6">Bônus Inclusos na Oferta</h2>
-            <p className="text-zinc-400 max-w-2xl mx-auto">Se você agir agora, além do Método Falar Bem, você leva dois guias complementares de alto impacto.</p>
+            <p className="text-zinc-400 max-w-2xl mx-auto">Se você agir agora, além do Método Falar Bem, você leva quatro guias complementares de alto impacto.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -328,6 +328,40 @@ export default function App() {
                 </div>
               </div>
             </motion.div>
+
+            <motion.div 
+              whileHover={{ scale: 1.02 }}
+              className="p-8 rounded-[32px] bg-zinc-900/50 border border-emerald-500/20 relative overflow-hidden group"
+            >
+              <div className="absolute top-0 right-0 bg-emerald-500 text-black text-[10px] font-black px-4 py-1 rounded-bl-xl uppercase tracking-widest">Grátis</div>
+              <div className="flex items-start gap-6">
+                <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 flex items-center justify-center shrink-0 border border-emerald-500/20">
+                  <CheckCircle2 className="w-8 h-8 text-emerald-500" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Checklist da Oratória Magnética</h3>
+                  <p className="text-zinc-400 text-sm leading-relaxed">O guia rápido para revisar antes de qualquer fala importante. Garanta que você não esqueceu nenhum elemento essencial para prender a atenção.</p>
+                  <p className="text-emerald-500 font-bold text-xs mt-4 uppercase tracking-widest">Valor: R$ 27,00</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              whileHover={{ scale: 1.02 }}
+              className="p-8 rounded-[32px] bg-zinc-900/50 border border-emerald-500/20 relative overflow-hidden group"
+            >
+              <div className="absolute top-0 right-0 bg-emerald-500 text-black text-[10px] font-black px-4 py-1 rounded-bl-xl uppercase tracking-widest">Grátis</div>
+              <div className="flex items-start gap-6">
+                <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 flex items-center justify-center shrink-0 border border-emerald-500/20">
+                  <Users className="w-8 h-8 text-emerald-500" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2">Comunicação Não-Verbal de Impacto</h3>
+                  <p className="text-zinc-400 text-sm leading-relaxed">Domine a linguagem do corpo. Aprenda como usar gestos, postura e olhar para transmitir confiança e autoridade sem dizer uma única palavra.</p>
+                  <p className="text-emerald-500 font-bold text-xs mt-4 uppercase tracking-widest">Valor: R$ 57,00</p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -358,6 +392,12 @@ export default function App() {
             <div className="flex items-center gap-3 text-emerald-400 font-bold">
               <Brain className="w-5 h-5" /> <span>BÔNUS: Protocolo Anti-Branco</span>
             </div>
+            <div className="flex items-center gap-3 text-emerald-400 font-bold">
+              <CheckCircle2 className="w-5 h-5" /> <span>BÔNUS: Checklist da Oratória Magnética</span>
+            </div>
+            <div className="flex items-center gap-3 text-emerald-400 font-bold">
+              <Users className="w-5 h-5" /> <span>BÔNUS: Comunicação Não-Verbal de Impacto</span>
+            </div>
           </div>
 
           <div className="mb-12">
@@ -366,7 +406,7 @@ export default function App() {
               <span className="text-zinc-400 text-sm uppercase font-bold tracking-widest mb-1">Por apenas</span>
               <div className="flex items-baseline gap-2">
                 <span className="text-2xl font-bold">R$</span>
-                <span className="text-7xl md:text-9xl font-black text-emerald-500 tracking-tighter">29,90</span>
+                <span className="text-7xl md:text-9xl font-black text-emerald-500 tracking-tighter">37,90</span>
               </div>
               <span className="text-zinc-500 text-sm mt-2">Pagamento único • Acesso Vitalício ao Arquivo</span>
             </div>
